@@ -21,6 +21,9 @@
   list-style: none;
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* sidebar style start */
 .sidebar-container {
@@ -47,6 +50,12 @@
 .sidebar a {
   color: white;
   font-size: 20px;
+}
+.nav-link:hover {
+  background-color: rgb(187 247 208);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 .sidebar li {
   margin-top: 20px;
