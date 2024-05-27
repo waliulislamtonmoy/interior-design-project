@@ -17,18 +17,18 @@ let roomprice = 199;
 
 plus.addEventListener("click", () => {
   n++;
-  AvarageRoomPrice = roomprice * n;
-  price.innerText = AvarageRoomPrice;
+  roomprice += 99;
+  price.innerText = roomprice;
   roomNumber1.innerText = n;
 });
 
 minus.addEventListener("click", () => {
-  if (n > 0) {
+  if (n > 1) {
     n--;
+    roomprice -= 99;
   }
 
-  AvarageRoomPrice = roomprice * n;
-  price.innerText = AvarageRoomPrice;
+  price.innerText = roomprice;
   roomNumber1.innerText = n;
 });
 
@@ -47,18 +47,18 @@ let ProRoomprice = 249;
 
 ProPlus.addEventListener("click", () => {
   ProRoom++;
-  AvarageRoomPrice = ProRoomprice * ProRoom;
-  ProPrice.innerText = AvarageRoomPrice;
+  ProRoomprice += 99;
+  ProPrice.innerText = ProRoomprice;
   ProRoomNumber1.innerText = ProRoom;
 });
 
 ProMinus.addEventListener("click", () => {
-  if (ProRoom > 0) {
+  if (ProRoom > 1) {
     ProRoom--;
+    ProRoomprice -= +99;
   }
 
-  AvarageRoomPrice = ProRoomprice * ProRoom;
-  ProPrice.innerText = AvarageRoomPrice;
+  ProPrice.innerText = ProRoomprice;
   ProRoomNumber1.innerText = ProRoom;
 });
 

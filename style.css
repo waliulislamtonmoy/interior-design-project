@@ -180,26 +180,31 @@
   font-size: 50px;
   padding: 20px;
   cursor: pointer;
+  user-select: none;
 }
 .plus {
   font-size: 50px;
   padding: 20px;
   cursor: pointer;
+  user-select: none;
 }
 
 .ProNumber {
   font-size: 30px;
+  user-select: none;
 }
 
 .ProMinus {
   font-size: 50px;
   padding: 20px;
   cursor: pointer;
+  user-select: none;
 }
 .ProPlus {
   font-size: 50px;
   padding: 20px;
   cursor: pointer;
+  user-select: none;
 }
 
 .number {
